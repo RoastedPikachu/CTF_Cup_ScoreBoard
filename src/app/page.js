@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main className="relative w-full h-full">
       <h2 className="mt-[50px] pb-[30px] w-full text-[#ffffff] text-[2rem] font-['DaMiOne'] text-center">
-        Результаты таски "Умный дом"
+        Результаты таски &quot;Умный дом&quot;
       </h2>
 
       {isModalFormOpen && (
