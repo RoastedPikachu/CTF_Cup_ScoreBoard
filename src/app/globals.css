@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {font-family: "DaMiOne"; src: url(https://ctfcup.ru/_next/static/media/DaMiOne.de5eae47.ttf) format("truetype")}
+
+@font-face {font-family: "GoodTiming"; src: url(https://ctfcup.ru/_next/static/media/good_timing_bd.fda70610.ttf) format("truetype")}
+
+@font-face {font-family: "GoodTimingRegular"; src: url(https://ctfcup.ru/_next/static/media/Good_Timing_Regular.10c7719c.ttf) format("truetype")}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background-color: #0d0d0d;
+  overflow-x: hidden;
+}
