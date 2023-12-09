@@ -9,7 +9,6 @@ export const competitorSlice = createSlice({
   initialState,
   reducers: {
     addCompetitor(state, action) {
-      console.log("hhghghg");
       state.competitors.push(action.payload);
     },
   },
